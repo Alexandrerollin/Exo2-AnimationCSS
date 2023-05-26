@@ -7,3 +7,12 @@ h1 {
 h1:hover {
     color: green;
 }
+
+p {
+    transition: 2s linear;
+    /* transition-timing-function: linear; */
+}
+
+p:active {
+    transform: rotate(720deg);
+}
