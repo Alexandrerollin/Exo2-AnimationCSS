@@ -1,0 +1,9 @@
+h1 {
+    color: red;
+    transition-timing-function: linear;
+    transition-duration: 1s;
+}
+
+h1:hover {
+    color: green;
+}
